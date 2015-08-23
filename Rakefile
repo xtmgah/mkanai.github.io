@@ -23,7 +23,7 @@ task :deploy => [:generate] do
     system "rm -rf *"
     system "mv #{tmp}/* ."
 
-    system "git add ."
+    system "git add --all"
     message = "updated at #{Time.now}"
     begin
       system "git commit -am #{message.shellescape}"
