@@ -26,7 +26,7 @@ author:
 
 # Build settings
 markdown: kramdown
-exclude: ["Gemfile", "Gemfile.lock", "Rakefile"]
+exclude: ["Gemfile", "Gemfile.lock", "Rakefile", "README.md"]
 
 
 # jekyll-scholar settings
