@@ -1,0 +1,56 @@
+# Site settings
+title: Masahiro Kanai
+description: > 
+  A personal website.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mkanai.github.io" # the base hostname & protocol for your site
+twitter_username: CanI_61st
+github_username:  mkanai
+
+author:
+  name:
+    en: Masahiro Kanai
+    ja: 金井 仁弘 (Masahiro Kanai)
+  description:
+    en: An undergraduate student currently studying Bioinformatics/Statistical Genetics at Department of Biosciences and Informatics, Keio University.
+    ja: 慶應義塾大学 理工学部 生命情報学科 3年
+  emails: 
+   - cani.m.61st [at] gmail.com
+   - mkanai [at] keio.jp
+   - mkanai.brc [at] tmd.ac.jp
+   - masahiro.kanai [at] riken.jp
+  twitter: CanI_61st
+  github: mkanai
+
+# gems: ['jekyll/assets']
+
+# Build settings
+markdown: kramdown
+exclude: ["Gemfile", "Gemfile.lock", "Rakefile"]
+
+
+# jekyll-scholar settings
+scholar:
+  bibtex_filters:
+    - latex
+    
+  style: ./_bibliography/custom.csl
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: publications.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+  
+
