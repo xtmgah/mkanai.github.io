@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Masahiro Kanai</title>
-    <description>A personal website.
-</description>
+    <title>Masahiro Kanai (金井 仁弘)</title>
+    <description>A personal website.</description>
     <link>http://mkanai.github.io/</link>
     <atom:link href="http://mkanai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Aug 2015 22:37:53 +0900</pubDate>
-    <lastBuildDate>Sun, 23 Aug 2015 22:37:53 +0900</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2015 02:08:33 +0900</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2015 02:08:33 +0900</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
   </channel>
