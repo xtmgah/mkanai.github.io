@@ -6,6 +6,11 @@ en:
         url: https://www.youtube.com/watch?v=LYH6UbBgLt0
   - name: Microsoft Imagine Cup 2010 Software Design Competition National Finals the 1st place & Worldwide Finalist
     date: 2010
+    links:
+      - title: Report1
+        url: http://www.microsoft.com/ja-jp/mic/english/report/100330imaginecup.aspx
+      - title: Report2
+        url: http://www.microsoft.com/ja-jp/mic/english/report/100704imagine_Cup_2010.aspx
 ja:
   - name: Microsoft Imagine Cup 2011 Windows 7 Touch Challenge 世界第3位
     date: 2011
@@ -14,3 +19,10 @@ ja:
         url: https://www.youtube.com/watch?v=LYH6UbBgLt0
   - name: Microsoft Imagine Cup 2010 Software Design Competition 日本大会優勝・世界大会出場
     date: 2010
+    links:
+      - title: Report1
+        url: https://www.microsoft.com/ja-jp/mic/report/100330imaginecup.aspx
+      - title: Report2
+        url: https://www.microsoft.com/ja-jp/mic/report/100704imagine_Cup_2010.aspx
+
+
