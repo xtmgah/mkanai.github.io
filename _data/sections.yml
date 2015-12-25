@@ -1,15 +1,7 @@
 - name: Education
   id: education
-- name: Professional
-  id: professional
-- name: Interests
-  id: interests
-- name: Skills
-  id: skills
-- name: Awards
-  id: awards
-- name: Membership
-  id: membership
+- name: Research
+  id: research
 - name: Software
   id: software
 - name: Publications

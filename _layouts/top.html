@@ -44,11 +44,11 @@ categories: top
     </div>
     {% endif %}
 
-    {% if site.data.professional.[page.lang] %}
-    <div id="professional">
-      <h3>Professional Experience</h3>
+    {% if site.data.research.[page.lang] %}
+    <div id="research">
+      <h3>Research Experience</h3>
       <dl class="dl-horizontal">
-        {% for workplace in site.data.professional.[page.lang] %}
+        {% for workplace in site.data.research.[page.lang] %}
         <dt>{{ workplace.period }}</dt>
         <dd>
           <div class="col-md-9">{{ workplace.name }}</div>
