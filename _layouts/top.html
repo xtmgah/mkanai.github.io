@@ -115,6 +115,18 @@ categories: top
     </div>
     {% endif %}
 
+    {% if site.data.certification.[page.lang] %}
+    <div id="membership">
+      <h3>Certification</h3>
+      <dl class="dl-horizontal">
+        {% for certificate in site.data.certification.[page.lang] %}
+        <dt>{{ certificate.date }}</dt>
+        <dd>{{ certificate.name }}</dd>
+        {% endfor %}
+      </dl>
+    </div>
+    {% endif %}
+
     <div id="software">
       <h3>Software</h3>
       <a class="btn btn-primary" href="{{ "/software/" | prepend: site.baseurl | prepend: site.url }}">Details</a>
