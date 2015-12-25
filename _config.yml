@@ -24,9 +24,12 @@ author:
 # gems: ['jekyll/assets']
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 exclude: ["Gemfile", "Gemfile.lock", "Rakefile", "README.md"]
 
+# redcarpet settings
+redcarpet:
+  extensions: [tables,autolink,strikethrough,no_intra_emphasis,superscript,highlight]
 
 # jekyll-scholar settings
 scholar:
