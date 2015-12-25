@@ -6,10 +6,17 @@ Personal website powered by [Jekyll](https://github.com/jekyll/jekyll).
 
 * [jekyll](https://github.com/jekyll/jekyll)
 * [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
+* [redcarpet](https://github.com/vmg/redcarpet)
 * [Flat-UI](https://github.com/designmodo/Flat-UI)
 * [smooth-scroll](https://github.com/cferdinandi/smooth-scroll)
 
 and more.
+
+## Deploy
+
+```{sh}
+rake
+```
 
 ## TODO
 
