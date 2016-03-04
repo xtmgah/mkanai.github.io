@@ -5,15 +5,13 @@ permalink: /software/
 title: Software
 ---
 
-Coming soon.  [[back]]({{ site.url }})
-
 ## Software used in our journal papers
 
 ### Kanai, M. *et al.* (submitted)
 
 **Kanai, M.**, Tanaka, T. & Okada, Y. Empirical estimation of genome-wide significance thresholds based on the 1000 Genomes Project. (submitted)
 
-* The authors’ scripts used for calculations
+* The authors’ scripts used for calculations: [link]()
 * {% smooth_scroll WRShd %}
 * [PLINK 1.9](https://www.cog-genomics.org/plink2)
 * [EIGENSOFT 6.0.1](http://www.hsph.harvard.edu/alkes-price/software/)
@@ -63,4 +61,6 @@ A package for optimal matching of cases to controls using network flow theory.
 
 This package provides C++ sub-routines for the Harrell-Davis estimate functions from R. R. Wilcox' robust statistics package [`WRS`](https://github.com/nicebread/WRS), which substantially speed up the original implementation in R.
 
+
+[[back]]({{ site.url }})
 
