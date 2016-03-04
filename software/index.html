@@ -18,6 +18,8 @@
   <!-- Loading Flat UI -->
   <link rel="stylesheet" href="/css/flat-ui.min.css">
   
+  <link rel="stylesheet" href="/css/syntax.css">
+  
   <link rel="stylesheet" href="/css/custom.css">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
@@ -63,7 +65,7 @@
           
           <li><a href="http://mkanai.github.io/ja/">日本語</a></li>
           
-          <li><p class="navbar-text">Last Updated: 2015-09-12</p></li>
+          <li><p class="navbar-text">Last Updated: 2016-03-04</p></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
@@ -75,7 +77,70 @@
       <h1>Software</h1>
     </header>
     <article>
-      <p>Coming soon.  <a href="http://mkanai.github.io">[back]</a></p>
+      <h2 id="software-used-in-our-journal-papers">Software used in our journal papers</h2>
+
+<h3 id="kanai-m-et-al-submitted">Kanai, M. <em>et al.</em> (submitted)</h3>
+
+<p><strong>Kanai, M.</strong>, Tanaka, T. &amp; Okada, Y. Empirical estimation of genome-wide significance thresholds based on the 1000 Genomes Project. (submitted)</p>
+
+<ul>
+<li>The authors’ scripts used for calculations: <a href="">link</a></li>
+<li><a data-scroll href="#wrshd">WRShd</a></li>
+<li><a href="https://www.cog-genomics.org/plink2">PLINK 1.9</a></li>
+<li><a href="http://www.hsph.harvard.edu/alkes-price/software/">EIGENSOFT 6.0.1</a></li>
+</ul>
+
+<hr>
+
+<h2 id="r-packages">R packages</h2>
+
+<ul>
+<li><a data-scroll href="#definetti">deFinetti</a></li>
+<li><a data-scroll href="#ccmatch">ccmatch</a></li>
+<li><a data-scroll href="#wrshd">WRShd</a></li>
+</ul>
+
+<h3 id="installation">Installation</h3>
+
+<p>You can install any of my packages via the following code in R:</p>
+<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="kr">if</span> <span class="p">(</span><span class="o">!</span><span class="kn">require</span><span class="p">(</span><span class="s">&quot;devtools&quot;</span><span class="p">))</span> <span class="p">{</span>
+  install.packages<span class="p">(</span><span class="s">&quot;devtools&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+devtools<span class="o">::</span>install_github<span class="p">(</span><span class="s">&quot;mkanai/{package_name}&quot;</span><span class="p">)</span>
+</code></pre></div>
+<hr>
+
+<h3 id="definetti">deFinetti</h3>
+
+<p><a class="btn btn-primary btn-xs fui-github" href="https://github.com/mkanai/deFinetti" target="_blank"> GitHub </a> <a href="https://travis-ci.org/mkanai/deFinetti" target="_blank"><img src="https://travis-ci.org/mkanai/deFinetti.svg?branch=master" alt="Build Status"></a></p>
+
+<p>A package for plotting a <a href="http://en.wikipedia.org/wiki/De_Finetti_diagram">de Finetti diagram</a> and distributions of <a href="http://en.wikipedia.org/wiki/F-statistics">F-statistics</a> of genotypes.</p>
+
+<p><img src="/img/deFinetti_example.png" alt="deFinetti_example.png"></p>
+
+<hr>
+
+<h3 id="ccmatch">ccmatch</h3>
+
+<p><a class="btn btn-primary btn-xs fui-github" href="https://github.com/mkanai/ccmatch" target="_blank"> GitHub </a> <a href="https://travis-ci.org/mkanai/ccmatch" target="_blank"><img src="https://travis-ci.org/mkanai/ccmatch.svg?branch=master" alt="Build Status"></a></p>
+
+<p>A package for optimal matching of cases to controls using network flow theory.</p>
+
+<p><strong>Reference</strong></p>
+
+<ul>
+<li><span id="Rosenbaum1989">Rosenbaum, P. R. Optimal matching for observational studies. <i>Journal of the American Statistical Association</i> <b>84,</b> 1024–1032 (1989). <a href="http://dx.doi.org/10.1080/01621459.1989.10478868" target="_blank">doi:10.1080/01621459.1989.10478868</a></span></li>
+</ul>
+
+<hr>
+
+<h3 id="wrshd">WRShd</h3>
+
+<p><a class="btn btn-primary btn-xs fui-github" href="https://github.com/mkanai/WRShd" target="_blank"> GitHub </a> <a href="https://travis-ci.org/mkanai/WRShd" target="_blank"><img src="https://travis-ci.org/mkanai/WRShd.svg?branch=master" alt="Build Status"></a></p>
+
+<p>This package provides C++ sub-routines for the Harrell-Davis estimate functions from R. R. Wilcox&#39; robust statistics package <a href="https://github.com/nicebread/WRS"><code>WRS</code></a>, which substantially speed up the original implementation in R.</p>
+
+<p><a href="http://mkanai.github.io">[back]</a></p>
 
     </article>
 

@@ -11,8 +11,9 @@ body {
   margin: 0 auto -35px;
   padding: 0 0 35px; }
 
-footer {
-  height: 35px; }
+img {
+  max-width: 100%;
+  height: auto; }
 
 .tag {
   display: inline-block;
