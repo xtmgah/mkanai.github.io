@@ -8,6 +8,7 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
     end
+
     def render(context)
       content = super
       extensions = {}
