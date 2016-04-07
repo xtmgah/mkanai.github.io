@@ -136,6 +136,8 @@ categories: top
       <h3>Publications</h3>
       <h6>Journal</h6>
       {% bibliography %}
+      <h6>International Conference</h6>
+      {% bibliography -f international.bib %}
       <h6>Domestic Conference</h6>
       {% if page.lang == 'ja' %}
         {% bibliography -f domestic.ja.bib %}
