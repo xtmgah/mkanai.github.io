@@ -11,7 +11,7 @@ title: Software
 
 **Kanai, M.**, Tanaka, T. & Okada, Y. Empirical estimation of genome-wide significance thresholds based on the 1000 Genomes Project. (submitted)
 
-* The authors’ scripts used for calculations: [link]()
+* The authors’ scripts used for calculations: {% github_link GWAS_threshold_scripts %}
 * {% smooth_scroll WRShd %}
 * [PLINK 1.9](https://www.cog-genomics.org/plink2)
 * [EIGENSOFT 6.0.1](http://www.hsph.harvard.edu/alkes-price/software/)
@@ -38,7 +38,7 @@ devtools::install_github("mkanai/{package_name}")
 --------
 
 ### deFinetti
-{% github_link deFinetti %}
+{% github_link deFinetti! %}
 
 A package for plotting a [de Finetti diagram](http://en.wikipedia.org/wiki/De_Finetti_diagram) and distributions of [F-statistics](http://en.wikipedia.org/wiki/F-statistics) of genotypes.
 
@@ -46,7 +46,7 @@ A package for plotting a [de Finetti diagram](http://en.wikipedia.org/wiki/De_Fi
 
 --------
 ### ccmatch
-{% github_link ccmatch %}
+{% github_link ccmatch! %}
 
 A package for optimal matching of cases to controls using network flow theory.
 
@@ -57,7 +57,7 @@ A package for optimal matching of cases to controls using network flow theory.
 
 --------
 ### WRShd
-{% github_link WRShd %}
+{% github_link WRShd! %}
 
 This package provides C++ sub-routines for the Harrell-Davis estimate functions from R. R. Wilcox' robust statistics package [`WRS`](https://github.com/nicebread/WRS), which substantially speed up the original implementation in R.
 
