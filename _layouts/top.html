@@ -53,8 +53,8 @@ categories: top
         <dd>
           <div class="col-md-9">{{ workplace.name }}</div>
           <div class="col-md-3 text-muted">{{ workplace.position }}</div>
-          {% if workplace.mentor %}
-          <div class="col-md-12 text-muted">Under the mentorship of {{ workplace.mentor }}.</div>
+          {% if workplace.adviser %}
+          <div class="col-md-12 text-muted">Adviser: {{ workplace.adviser }}.</div>
           {% endif %}
         </dd>
         {% endfor %}
@@ -134,8 +134,11 @@ categories: top
 
     <div id="publications">
       <h3>Publications</h3>
-      <h6>Journal</h6>
       {% bibliography %}
+    </div>
+
+    <div id="presentations">
+      <h3>Presentations</h3>
       <h6>International Conference</h6>
       {% bibliography -f international.bib %}
       <h6>Domestic Conference</h6>
