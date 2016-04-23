@@ -1,6 +1,5 @@
 ---
 layout: default
-categories: top
 ---
 
     <div>
@@ -11,7 +10,10 @@ categories: top
       <div class="col-md-5">
         <dl class="dl-horizontal">
           {% if site.author.emails %}
-          <dt><span class="fui-mail"> Email </span></dt>
+          <dt>
+            <span class="fui-mail"></span>
+            <span class="icon-text">Email</span>
+          </dt>
           {% for email in site.author.emails %}
           <dd>
             <a>{{ email }}</a>
@@ -20,12 +22,18 @@ categories: top
           {% endif %}
 
           {% if site.author.twitter %}
-          <dt><span class="fui-twitter"> Twitter </span></dt>
+          <dt>
+            <span class="fui-twitter"></span>
+            <span class="icon-text">Twitter</span>
+          </dt>
           <dd><a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener">  @{{ site.author.twitter }} </a></dd>
           {% endif %}
 
           {% if site.author.github %}
-          <dt><span class="fui-github"> GitHub </span></dt>
+          <dt>
+            <span class="fui-github"></span>
+            <span class="icon-text">GitHub</span>
+          </dt>
           <dd><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">  @{{ site.author.github }} </a></dd>
           {% endif %}
         </dl>
@@ -34,7 +42,7 @@ categories: top
 
     {% if site.data.education.[page.lang] %}
     <div id="education">
-      <h3>Education</h3>
+      <h2>Education</h2>
       <dl class="dl-horizontal">
         {% for school in site.data.education.[page.lang] %}
         <dt>{{ school.period }}</dt>
@@ -46,7 +54,7 @@ categories: top
 
     {% if site.data.research.[page.lang] %}
     <div id="research">
-      <h3>Research Experience</h3>
+      <h2>Research Experience</h2>
       <dl class="dl-horizontal">
         {% for workplace in site.data.research.[page.lang] %}
         <dt>{{ workplace.period }}</dt>
@@ -64,7 +72,7 @@ categories: top
 
     {% if site.data.interests.[page.lang] %}
     <div id="interests">
-      <h3>Research Interests</h3>
+      <h2>Research Interests</h2>
       <ul class="list-inline">
         {% for interest in site.data.interests.[page.lang] %}
         <li><span class="tag">{{ interest }}</span></li>
@@ -75,7 +83,7 @@ categories: top
 
     {% if site.data.skills.[page.lang] %}
     <div id="skills">
-      <h3>Technical Skills</h3>
+      <h2>Technical Skills</h2>
       <ul class="list-inline">
         {% for skill in site.data.skills.[page.lang] %}
         <li><span class="tag">{{ skill }}</span></li>
@@ -86,7 +94,7 @@ categories: top
 
     {% if site.data.awards.[page.lang] %}
     <div id="awards">
-      <h3>Awards</h3>
+      <h2>Awards</h2>
       <dl class="dl-horizontal">
         {% for award in site.data.awards.[page.lang] %}
         <dt>{{ award.date }}</dt>
@@ -105,7 +113,7 @@ categories: top
 
     {% if site.data.membership.[page.lang] %}
     <div id="membership">
-      <h3>Membership</h3>
+      <h2>Membership</h2>
       <dl class="dl-horizontal">
         {% for society in site.data.membership.[page.lang] %}
         <dt>{{ society.period }}</dt>
@@ -117,7 +125,7 @@ categories: top
 
     {% if site.data.certification.[page.lang] %}
     <div id="membership">
-      <h3>Certification</h3>
+      <h2>Certification</h2>
       <dl class="dl-horizontal">
         {% for certificate in site.data.certification.[page.lang] %}
         <dt>{{ certificate.date }}</dt>
@@ -128,20 +136,20 @@ categories: top
     {% endif %}
 
     <div id="software">
-      <h3>Software</h3>
+      <h2>Software</h2>
       <a class="btn btn-primary" href="{{ "/software/" | prepend: site.baseurl | prepend: site.url }}">Details</a>
     </div>
 
     <div id="publications">
-      <h3>Publications</h3>
+      <h2>Publications</h2>
       {% bibliography %}
     </div>
 
     <div id="presentations">
-      <h3>Presentations</h3>
-      <h6>International Conference</h6>
+      <h2>Presentations</h2>
+      <h3>International Conference</h3>
       {% bibliography -f international.bib %}
-      <h6>Domestic Conference</h6>
+      <h3>Domestic Conference</h3>
       {% if page.lang == 'ja' %}
         {% bibliography -f domestic.ja.bib %}
       {% else %}

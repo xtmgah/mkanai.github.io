@@ -19,6 +19,10 @@
   
   <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
 
+  {% if page.layout == "top" %}
+  <link rel="stylesheet" href="{{ "/css/top.css" | prepend: site.baseurl }}">
+  {% endif %}
+
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
   <!--[if lt IE 9]>
     <script src="{{ "js/vendor/html5shiv.js" | prepend: site.baseurl }}"></script>

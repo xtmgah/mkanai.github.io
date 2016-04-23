@@ -3,8 +3,7 @@ title: Masahiro Kanai (金井 仁弘)
 description: A personal website.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mkanai.github.io" # the base hostname & protocol for your site
-twitter_username: CanI_61st
-github_username:  mkanai
+repository: "https://github.com/mkanai/mkanai.github.io"
 
 author:
   name:
