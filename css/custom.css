@@ -3,7 +3,7 @@ html, body {
   height: 100%; }
 
 body {
-  font-family: Lato,Helvetica,"游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+  font-family: Lato, Helvetica, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
 
 #wrap {
   min-height: 100%;
@@ -29,8 +29,12 @@ a.navbar-text {
   border-radius: 4px; }
 
 .icon-text {
-  margin-left: 4px;
-  font-weight: 400; }
+  margin-left: 4px; }
+
+.btn .icon-text {
+  font-family: Lato, Helvetica, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 12px;
+  font-weight: 900; }
 
 .dl-horizontal dt {
   text-align: left;
