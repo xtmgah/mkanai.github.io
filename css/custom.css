@@ -15,6 +15,10 @@ img {
   max-width: 100%;
   height: auto; }
 
+a.navbar-text {
+  margin-left: 0px;
+  margin-right: 0px; }
+
 .tag {
   display: inline-block;
   padding: 0 21px;
@@ -23,6 +27,10 @@ img {
   vertical-align: middle;
   background-color: #5dade2;
   border-radius: 4px; }
+
+.icon-text {
+  margin-left: 4px;
+  font-weight: 400; }
 
 .dl-horizontal dt {
   text-align: left;
@@ -33,3 +41,37 @@ ol .bibliography {
   flex-direction: column-reverse; }
   ol .bibliography li {
     flex: 0 0 auto; }
+
+footer ul {
+  margin-bottom: 5px; }
+
+@media screen and (max-width: 550px) {
+  .hide-small {
+    display: none !important; } }
+@media screen and (max-width: 475px) {
+  body {
+    font-size: 16px; }
+
+  h1,
+  .h1 {
+    font-size: 40px; }
+
+  h2,
+  .h2 {
+    font-size: 29px; }
+
+  h3,
+  .h3 {
+    font-size: 28px; }
+
+  h4,
+  .h4 {
+    font-size: 24px; }
+
+  h5,
+  .h5 {
+    font-size: 18px; }
+
+  h6,
+  .h6 {
+    font-size: 16px; } }
