@@ -23,7 +23,7 @@
           {% if page.lang != "ja" %}
           <li><a href="{{ "/ja/" | prepend: site.baseurl | prepend: site.url }}">日本語</a></li>
           {% endif %}
-          <li><a class="navbar-text" rel="noopener" target="_blank" href="{{ "/commits/source" | prepend: site.repository }}">Last updated: {{ site.time | date: "%Y-%m-%d" }}</a></li>
+          <li><a class="navbar-text" rel="noopener" target="_blank" href="{{ "/commits/master" | prepend: site.repository }}">Last updated: {{ site.time | date: "%Y-%m-%d" }}</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
