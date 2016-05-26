@@ -143,6 +143,13 @@ layout: default
     <div id="publications">
       <h2>Publications</h2>
       {% bibliography %}
+      {% if page.lang == 'ja' %}
+        <h3>和文総説</h3>
+        {% bibliography -f review.ja.bib %}
+      {% else %}
+        <h3>Review (in Japanese)</h3>
+        {% bibliography -f review.en.bib %}
+      {% endif %}
     </div>
 
     <div id="presentations">
