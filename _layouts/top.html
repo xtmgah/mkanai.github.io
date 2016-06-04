@@ -62,7 +62,13 @@ layout: default
           <div class="col-md-9">{{ workplace.name }}</div>
           <div class="col-md-3 text-muted">{{ workplace.position }}</div>
           {% if workplace.adviser %}
-          <div class="col-md-12 text-muted">Adviser: {{ workplace.adviser }}.</div>
+          <div class="col-md-12 text-muted">
+            {% if page.lang == 'ja' %}
+              指導教官: {{ workplace.adviser }}.
+            {% else %}
+              Adviser: {{ workplace.adviser }}.
+            {% endif %}
+          </div>
           {% endif %}
         </dd>
         {% endfor %}
@@ -154,12 +160,15 @@ layout: default
 
     <div id="presentations">
       <h2>Presentations</h2>
-      <h3>International Conference</h3>
-      {% bibliography -f international.bib %}
-      <h3>Domestic Conference</h3>
       {% if page.lang == 'ja' %}
+        <h3>国際学会</h3>
+        {% bibliography -f international.bib %}
+        <h3>国内学会</h3>
         {% bibliography -f domestic.ja.bib %}
       {% else %}
+        <h3>International Conference</h3>
+        {% bibliography -f international.bib %}
+        <h3>Domestic Conference (in Japan)</h3>
         {% bibliography -f domestic.en.bib %}
       {% endif %}
     </div>
