@@ -7,9 +7,9 @@ title: Software
 
 ## Software used in our journal papers
 
-### Kanai, M. *et al.* (submitted)
+### Kanai, M. *et al.* (2016)
 
-**Kanai, M.**, Tanaka, T. & Okada, Y. Empirical estimation of genome-wide significance thresholds based on the 1000 Genomes Project. (submitted)
+{% reference Kanai2016 -f publications.bib %}
 
 * The authors’ scripts used for calculations: {% github_link GWAS_threshold_scripts %}
 * {% smooth_scroll WRShd %}
