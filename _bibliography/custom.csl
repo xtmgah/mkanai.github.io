@@ -93,7 +93,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography et-al-min="6" et-al-use-first="4" et-al-use-last="true" second-field-align="flush" entry-spacing="0" line-spacing="2">
+  <bibliography second-field-align="flush" entry-spacing="0" line-spacing="2">
     <layout>
       <group delimiter=" ">
         <text macro="author" suffix="."/>
