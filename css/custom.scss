@@ -38,6 +38,10 @@ a.navbar-text {
   border-radius:4px;
 }
 
+.text-muted {
+  color: #7F8C8D;
+}
+
 .icon-text {
   margin-left: 4px;
   font-weight: 400;
@@ -54,13 +58,8 @@ a.navbar-text {
   width: 180px;
 }
 
-ol .bibliography {
-  display: flex;
-  flex-direction: column-reverse;
-
-  li {
-    flex: 0 0 auto;
-  }
+ol.bibliography li span i {
+  color: #2980B9;
 }
 
 footer ul {
