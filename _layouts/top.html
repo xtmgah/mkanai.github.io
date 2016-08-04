@@ -3,9 +3,9 @@ layout: default
 ---
 
     <div>
-      <h1>{{ site.author.name.[page.lang] }}</h1>
+      <h1>{{ site.author.name[page.lang] }}</h1>
       <div class="col-md-7">
-        <p class="lead">{{ site.author.description.[page.lang] }}</p>
+        <p class="lead">{{ site.author.description[page.lang] }}</p>
       </div>
       <div class="col-md-5">
         <dl class="dl-horizontal">
@@ -40,11 +40,11 @@ layout: default
       </div>
     </div>
 
-    {% if site.data.education.[page.lang] %}
+    {% if site.data.education[page.lang] %}
     <div id="education">
       <h2>Education</h2>
       <dl class="dl-horizontal">
-        {% for school in site.data.education.[page.lang] %}
+        {% for school in site.data.education[page.lang] %}
         <dt>{{ school.period }}</dt>
         <dd><div class="col-md-9">{{ school.name }}</div><div class="col-md-3 text-muted">{{ school.degree }}</div></dd>
         {% endfor %}
@@ -52,11 +52,11 @@ layout: default
     </div>
     {% endif %}
 
-    {% if site.data.research.[page.lang] %}
+    {% if site.data.research[page.lang] %}
     <div id="research">
       <h2>Research Experience</h2>
       <dl class="dl-horizontal">
-        {% for workplace in site.data.research.[page.lang] %}
+        {% for workplace in site.data.research[page.lang] %}
         <dt>{{ workplace.period }}</dt>
         <dd>
           <div class="col-md-9">{{ workplace.name }}</div>
@@ -76,33 +76,33 @@ layout: default
     </div>
     {% endif %}
 
-    {% if site.data.interests.[page.lang] %}
+    {% if site.data.interests[page.lang] %}
     <div id="interests">
       <h2>Research Interests</h2>
       <ul class="list-inline">
-        {% for interest in site.data.interests.[page.lang] %}
+        {% for interest in site.data.interests[page.lang] %}
         <li><span class="tag">{{ interest }}</span></li>
         {% endfor %}
       </ul>
     </div>
     {% endif %}
 
-    {% if site.data.skills.[page.lang] %}
+    {% if site.data.skills[page.lang] %}
     <div id="skills">
       <h2>Technical Skills</h2>
       <ul class="list-inline">
-        {% for skill in site.data.skills.[page.lang] %}
+        {% for skill in site.data.skills[page.lang] %}
         <li><span class="tag">{{ skill }}</span></li>
         {% endfor %}
       </ul>
     </div>
     {% endif %}
 
-    {% if site.data.awards.[page.lang] %}
+    {% if site.data.awards[page.lang] %}
     <div id="awards">
       <h2>Awards</h2>
       <dl class="dl-horizontal">
-        {% for award in site.data.awards.[page.lang] %}
+        {% for award in site.data.awards[page.lang] %}
         <dt>{{ award.date }}</dt>
         <dd>
           {{ award.name }}
@@ -117,11 +117,11 @@ layout: default
     </div>
     {% endif %}
 
-    {% if site.data.membership.[page.lang] %}
+    {% if site.data.membership[page.lang] %}
     <div id="membership">
       <h2>Membership</h2>
       <dl class="dl-horizontal">
-        {% for society in site.data.membership.[page.lang] %}
+        {% for society in site.data.membership[page.lang] %}
         <dt>{{ society.period }}</dt>
         <dd>{{ society.name }}</dd>
         {% endfor %}
@@ -129,11 +129,11 @@ layout: default
     </div>
     {% endif %}
 
-    {% if site.data.certification.[page.lang] %}
+    {% if site.data.certification[page.lang] %}
     <div id="membership">
       <h2>Certification</h2>
       <dl class="dl-horizontal">
-        {% for certificate in site.data.certification.[page.lang] %}
+        {% for certificate in site.data.certification[page.lang] %}
         <dt>{{ certificate.date }}</dt>
         <dd>{{ certificate.name }}</dd>
         {% endfor %}
