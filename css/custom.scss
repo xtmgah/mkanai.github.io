@@ -1,14 +1,10 @@
 ---
 ---
 
-$font-family:Lato,Helvetica,"游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+@import "_fonts";
 
 html, body {
   height: 100%;
-}
-
-body {
-  font-family: $font-family;
 }
 
 #wrap {

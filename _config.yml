@@ -25,6 +25,8 @@ author:
 markdown: redcarpet
 highliter: rouge
 exclude: ["Gemfile", "Gemfile.lock", "Rakefile", "README.md"]
+sass:
+    sass_dir: ./css
 
 # redcarpet settings
 redcarpet:
