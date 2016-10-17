@@ -1,9 +1,45 @@
-@charset "UTF-8";
+/* cf: https://speakerdeck.com/tacamy/modanri-ben-yu-huontozhi-ding */
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: 100;
+  src: local("YuGothic-Light"), local("Yu Gothic Light"); }
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: 200;
+  src: local("YuGothic-Light"), local("Yu Gothic Light"); }
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: 300;
+  src: local("YuGothic-Regular"), local("Yu Gothic"); }
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: 400;
+  src: local("YuGothic-Medium"), local("Yu Gothic Medium"), local("YuGothic-Regular"); }
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: 500;
+  src: local("YuGothic-Medium"), local("Yu Gothic Medium"), local("YuGothic-Regular"); }
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: 600;
+  src: local("YuGothic-Bold"), local("Yu Gothic"); }
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: 700;
+  src: local("YuGothic-Bold"), local("Yu Gothic"); }
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: 800;
+  src: local("YuGothic-Bold"), local("Yu Gothic"); }
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: 900;
+  src: local("YuGothic-Bold"), local("Yu Gothic"); }
+body {
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", MyYuGothicM, Meiryo, sans-serif; }
+
 html, body {
   height: 100%; }
-
-body {
-  font-family: Lato, Helvetica, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
 
 #wrap {
   min-height: 100%;
@@ -36,7 +72,7 @@ a.navbar-text {
   font-weight: 400; }
 
 .btn .icon-text {
-  font-family: Lato, Helvetica, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", MyYuGothicM, Meiryo, sans-serif;
   font-size: 12px;
   font-weight: 700; }
 
