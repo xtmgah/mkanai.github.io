@@ -45,8 +45,12 @@ a.navbar-text {
 
 .btn .icon-text {
   font-family: $font-family;
-  font-size: 12px;
-  font-weight: 700;
+}
+
+.btn-xs {
+  padding: 4px 9px;
+  font-size: 14px;
+  line-height: 1;
 }
 
 .dl-horizontal dt {

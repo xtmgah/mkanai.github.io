@@ -2,32 +2,26 @@ en:
   - name: Laboratory for Bioinformatics (Sakakibara Lab.), Department of Biosciences and Informatics, Keio University
     position: Undergraduate Researcher
     period: Apr. 2016 - present
-    adviser: Dr. Yasubumi Sakakibara
+    advisor: Dr. Yasubumi Sakakibara
   - name: Laboratory for Statistical Analysis, RIKEN Center for Integrative Medical Sciences
     position: Research Assistant
     period: May. 2015 - present
-    adviser: Dr. Yoichiro Kamatani & Dr. Yukinori Okada
+    advisor: Dr. Yoichiro Kamatani & Dr. Yukinori Okada
   - name: Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Tokyo Medical and Dental University
     position: Technical Assistant
     period: Apr. 2014 - Mar. 2016
-    adviser: Dr. Yukinori Okada & Dr. Toshihiro Tanaka
-  - name: Keio University
-    position: Research Assistant
-    period: Nov. 2013 - Mar. 2015
+    advisor: Dr. Yukinori Okada & Dr. Toshihiro Tanaka
 ja:
   - name: 慶應義塾大学 理工学部 生命情報学科 バイオインフォマティクス研究室 (榊原研究室)
     position: 学部生
     period: 2016/04 - 現在
-    adviser: 榊原 康文 先生
+    advisor: 榊原 康文 先生
   - name: 理化学研究所 統合生命医科学研究センター 統計解析研究チーム
     position: 研究補助員
     period: 2015/05 - 現在
-    adviser: 鎌谷 洋一郎 先生 & 岡田 随象 先生
+    advisor: 鎌谷 洋一郎 先生 & 岡田 随象 先生
   - name: 東京医科歯科大学 大学院医歯学総合研究科 疾患多様性遺伝学分野
     position: 技術補佐員
     period: 2014/04 - 2016/03
-    adviser: 岡田 随象 先生 & 田中 敏博 先生
-  - name: 慶應義塾大学
-    position: 研究補助員
-    period: 2013/11 - 2015/03
+    advisor: 岡田 随象 先生 & 田中 敏博 先生
 

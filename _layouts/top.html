@@ -36,6 +36,12 @@ layout: default
           </dt>
           <dd><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">  @{{ site.author.github }} </a></dd>
           {% endif %}
+
+          <dt>
+            <span class="fui-document"></span>
+            <span class="icon-text">CV</span>
+          </dt>
+          <dd><a class="btn btn-primary btn-xs fui-link" href="{{ "/docs/CV.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener"><span class="icon-text">PDF</span></a></dd>
         </dl>
       </div>
     </div>
@@ -61,12 +67,12 @@ layout: default
         <dd>
           <div class="col-md-9">{{ workplace.name }}</div>
           <div class="col-md-3 text-muted">{{ workplace.position }}</div>
-          {% if workplace.adviser %}
+          {% if workplace.advisor %}
           <div class="col-md-12 text-muted">
             {% if page.lang == 'ja' %}
-              指導教官: {{ workplace.adviser }}.
+              指導教官: {{ workplace.advisor }}.
             {% else %}
-              Adviser: {{ workplace.adviser }}.
+              Advisor: {{ workplace.advisor }}.
             {% endif %}
           </div>
           {% endif %}
@@ -108,7 +114,7 @@ layout: default
           {{ award.name }}
           {% if award.links %}
           {% for link in award.links %}
-          <a class="btn btn-primary btn-xs" href="{{ link.url }}" target="_blank" rel="noopener"> {{ link.title }} </a>
+          <a class="btn btn-primary btn-xs fui-link" href="{{ link.url }}" target="_blank" rel="noopener"><span class="icon-text">{{ link.title }}</span></a>
           {% endfor %}
           {% endif %}
         </dd>
@@ -143,7 +149,7 @@ layout: default
 
     <div id="software">
       <h2>Software</h2>
-      <a class="btn btn-primary" href="{{ "/software/" | prepend: site.baseurl | prepend: site.url }}">Details</a>
+      <a class="btn btn-primary fui-link" href="{{ "/software/" | prepend: site.baseurl | prepend: site.url }}"><span class="icon-text">Details</span></a>
     </div>
 
     <div id="publications">

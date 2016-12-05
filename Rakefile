@@ -6,6 +6,12 @@ require 'yaml'
 require 'tmpdir'
 require 'jekyll'
 
+desc "Generate CV"
+task :generate_CV do
+  system "cd scripts && python ./generate_CV.py && cd .."
+  system "mv scripts/CV.pdf docs"
+end
+
 desc "Generate static files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
@@ -19,7 +25,12 @@ desc "Generate and deploy to Github"
 task :deploy => [:generate] do
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
-    system "git checkout master"
+    begin
+      system "git checkout master"
+    rescue Exception => e
+      puts "Error: git command abort"
+      exit -1
+    end
     system "rm -rf *"
     system "mv #{tmp}/* ."
 
