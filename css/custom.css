@@ -72,9 +72,12 @@ a.navbar-text {
   font-weight: 400; }
 
 .btn .icon-text {
-  font-family: Lato, -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", MyYuGothicM, Meiryo, sans-serif;
-  font-size: 12px;
-  font-weight: 700; }
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", MyYuGothicM, Meiryo, sans-serif; }
+
+.btn-xs {
+  padding: 4px 9px;
+  font-size: 14px;
+  line-height: 1; }
 
 .dl-horizontal dt {
   text-align: left;
