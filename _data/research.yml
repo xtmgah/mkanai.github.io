@@ -1,20 +1,28 @@
 en:
+  - name: Department of Statistical Genetics, Graduate School of Medicine, Osaka University
+    position: Graduate Student
+    period: Apr. 2017 - Jul. 2017
+    advisor: Dr. Yukinori Okada
   - name: Laboratory for Bioinformatics (Sakakibara Lab.), Department of Biosciences and Informatics, Keio University
     position: Undergraduate Researcher
-    period: Apr. 2016 - present
+    period: Apr. 2016 - Mar. 2017
     advisor: Dr. Yasubumi Sakakibara
   - name: Laboratory for Statistical Analysis, RIKEN Center for Integrative Medical Sciences
     position: Research Assistant
     period: May. 2015 - present
-    advisor: Dr. Yoichiro Kamatani & Dr. Yukinori Okada
+    advisor: Drs. Yoichiro Kamatani & Yukinori Okada
   - name: Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Tokyo Medical and Dental University
     position: Technical Assistant
     period: Apr. 2014 - Mar. 2016
-    advisor: Dr. Yukinori Okada & Dr. Toshihiro Tanaka
+    advisor: Drs. Yukinori Okada & Toshihiro Tanaka
 ja:
+  - name: 大阪大学大学院 医学系研究科 遺伝統計学
+    position: 大学院生（修士）
+    period: 2017/04 - 2017/07
+    advisor: 岡田 随象 先生
   - name: 慶應義塾大学 理工学部 生命情報学科 バイオインフォマティクス研究室 (榊原研究室)
     position: 学部生
-    period: 2016/04 - 現在
+    period: 2016/04 - 2017/03
     advisor: 榊原 康文 先生
   - name: 理化学研究所 統合生命医科学研究センター 統計解析研究チーム
     position: 研究補助員

@@ -1,19 +1,26 @@
 en:
+  - name: Bioinformatics and Integrative Genomics PhD Program, Division of Medical Sciences, Harvard Medical School
+    degree: PhD
+    period: Aug. 2017 - present
+    location: Boston, USA
   - name: Department of Biosciences and Informatics, Keio University
     degree: B.S. in Bioinformatics
-    period: Apr. 2013 - present
+    period: Apr. 2013 - Mar. 2017
     location: Yokohama, Japan
   - name: Senior High School at Komaba, University of Tsukuba
-    degree: High School
+    degree:
     period: Apr. 2010 - Mar. 2013
     location: Tokyo, Japan
 ja:
+  - name: Bioinformatics and Integrative Genomics PhD Program, Division of Medical Sciences, Harvard Medical School
+    degree: PhD
+    period: 2017/08 - present
   - name: 慶應義塾大学 理工学部 生命情報学科
     degree: B.S. in Bioinformatics
-    period: 2013/04 - 現在
+    period: 2013/04 - 2017/03
   - name: 筑波大学附属駒場高等学校
-    degree: High School
+    degree:
     period: 2010/04 - 2013/03
   - name: 筑波大学附属駒場中学校
-    degree: Junior High School
+    degree:
     period: 2007/04 - 2010/03
