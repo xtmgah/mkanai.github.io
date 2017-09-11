@@ -4,6 +4,7 @@ require 'rdoc'
 require 'date'
 require 'yaml'
 require 'tmpdir'
+require 'shellwords'
 require 'jekyll'
 
 desc "Generate CV"
@@ -41,6 +42,7 @@ task :deploy => [:generate] do
       system "git push origin master"
     rescue Exception => e
       puts "Error: git command abort"
+      puts e
       exit -1
     end
     system "git checkout source"
@@ -49,4 +51,3 @@ task :deploy => [:generate] do
 end
 
 task :default => :deploy
-
