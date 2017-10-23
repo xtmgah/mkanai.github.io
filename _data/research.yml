@@ -1,4 +1,8 @@
 en:
+  - name: Laboratory for Statistical Analysis, RIKEN Center for Integrative Medical Sciences
+    position: Research Assistant
+    period: May. 2015 - present
+    advisor: Drs. Yoichiro Kamatani & Yukinori Okada
   - name: Department of Statistical Genetics, Graduate School of Medicine, Osaka University
     position: Graduate Student
     period: Apr. 2017 - Jul. 2017
@@ -7,15 +11,15 @@ en:
     position: Undergraduate Researcher
     period: Apr. 2016 - Mar. 2017
     advisor: Dr. Yasubumi Sakakibara
-  - name: Laboratory for Statistical Analysis, RIKEN Center for Integrative Medical Sciences
-    position: Research Assistant
-    period: May. 2015 - present
-    advisor: Drs. Yoichiro Kamatani & Yukinori Okada
   - name: Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Tokyo Medical and Dental University
     position: Technical Assistant
     period: Apr. 2014 - Mar. 2016
     advisor: Drs. Yukinori Okada & Toshihiro Tanaka
 ja:
+  - name: 理化学研究所 統合生命医科学研究センター 統計解析研究チーム
+    position: 研修生
+    period: 2015/05 - 現在
+    advisor: 鎌谷 洋一郎 先生 & 岡田 随象 先生
   - name: 大阪大学大学院 医学系研究科 遺伝統計学
     position: 大学院生（修士）
     period: 2017/04 - 2017/07
@@ -24,10 +28,6 @@ ja:
     position: 学部生
     period: 2016/04 - 2017/03
     advisor: 榊原 康文 先生
-  - name: 理化学研究所 統合生命医科学研究センター 統計解析研究チーム
-    position: 研究補助員
-    period: 2015/05 - 現在
-    advisor: 鎌谷 洋一郎 先生 & 岡田 随象 先生
   - name: 東京医科歯科大学 大学院医歯学総合研究科 疾患多様性遺伝学分野
     position: 技術補佐員
     period: 2014/04 - 2016/03
