@@ -83,6 +83,9 @@ a.navbar-text {
   text-align: left;
   width: 180px; }
 
+ol.bibliography li span strong {
+  font-weight: 900; }
+
 ol.bibliography li span i {
   color: #2980B9; }
 

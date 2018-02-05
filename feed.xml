@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Masahiro Kanai (金井 仁弘)</title>
-    <description>A personal website.</description>
+    <description>PhD student in Bioinformatics and Integrative Genomics Program, Harvard Medical School.</description>
     <link>http://mkanai.github.io/</link>
     <atom:link href="http://mkanai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Nov 2017 14:06:14 -0400</pubDate>
-    <lastBuildDate>Wed, 01 Nov 2017 14:06:14 -0400</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2018 13:02:04 -0500</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2018 13:02:04 -0500</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
   </channel>
