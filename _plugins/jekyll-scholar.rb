@@ -15,7 +15,7 @@ module Jekyll
 
         # it must be a dirty hack, though...
         # highlight authorship
-        reference = reference.gsub(/Kanai, M|金井 仁弘/u){|c| "<b>#{$&}</b>"}
+        reference = reference.gsub(/Kanai, M|金井 仁弘/u){|c| "<strong>#{$&}</strong>"}
         # link doi
         reference = reference.gsub(/\bdoi:(10[.][0-9]{4,}(?:[.][0-9]+)*\/(?:(?![\"&\'<>])\S)+)\b/) { |c| "<a href=\"http://dx.doi.org/#{$1}\" target=\"_blank\" rel=\"noopener\">#{$&}</a>" }
         # link urls

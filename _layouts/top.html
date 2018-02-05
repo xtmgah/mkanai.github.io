@@ -42,6 +42,15 @@ layout: default
             <span class="icon-text">CV</span>
           </dt>
           <dd><a class="btn btn-primary btn-xs fui-link" href="{{ "/docs/CV.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener"><span class="icon-text">PDF</span></a></dd>
+
+          {% if site.author.orcid %}
+          <dt>
+            <span class="fui-info-circle"></span>
+            <span class="icon-text">ORCID</span>
+          </dt>
+          <dd><a href="https://orcid.org/{{ site.author.orcid }}" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">{{ site.author.orcid }}</a></dd>
+          {% endif %}
+
         </dl>
       </div>
     </div>
@@ -148,7 +157,7 @@ layout: default
     {% endif %}
 
     <div id="software">
-      <h2>Software</h2>
+      <h2>Software & Data</h2>
       <a class="btn btn-primary fui-link" href="{{ "/software/" | prepend: site.baseurl | prepend: site.url }}"><span class="icon-text">Details</span></a>
     </div>
 

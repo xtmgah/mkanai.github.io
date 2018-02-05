@@ -9,7 +9,7 @@ module Jekyll
     end
 
     def render(context)
-      "<a data-scroll href=\"\##{@text.downcase}\">#{@text}</a>"
+      @text.gsub(/\[([^\]]*)\]\((.*)\)/) {|c| "<a data-scroll href=\"\##{$2}\">#{$1}</a>" }
     end
   end
 end
