@@ -37,12 +37,6 @@ layout: default
           <dd><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">  @{{ site.author.github }} </a></dd>
           {% endif %}
 
-          <dt>
-            <span class="fui-document"></span>
-            <span class="icon-text">CV</span>
-          </dt>
-          <dd><a class="btn btn-primary btn-xs fui-link" href="{{ "/docs/CV.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener"><span class="icon-text">PDF</span></a></dd>
-
           {% if site.author.orcid %}
           <dt>
             <span class="fui-info-circle"></span>
@@ -50,6 +44,12 @@ layout: default
           </dt>
           <dd><a href="https://orcid.org/{{ site.author.orcid }}" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">{{ site.author.orcid }}</a></dd>
           {% endif %}
+
+          <dt>
+            <span class="fui-document"></span>
+            <span class="icon-text">CV</span>
+          </dt>
+          <dd><a class="btn btn-primary btn-xs fui-link" href="{{ "/docs/CV.pdf" | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener"><span class="icon-text">PDF</span></a></dd>
 
         </dl>
       </div>
