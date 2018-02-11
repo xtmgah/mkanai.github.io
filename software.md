@@ -390,13 +390,19 @@ title: Software & Data
 </tfoot>
 </tbody></table>
 
+### Fuji plot (Figure 1) {% github_link fujiplot %}
+[Fuji plot](https://github.com/mkanai/fujiplot) is a circos representation of multiple GWAS reseluts, which was designed to efficiently summarize significant SNPs across dozens of traits. We provide a wrapper script for [Circos](http://circos.ca/), generating input data and configuration files from GWAS data. 
+
+<img src="/img/Kanai2018_Fig1.svg" alt="Fuji plot" width="100%" style="max-width:768px">
+
 ### Links
 * [JENGER](http://jenger.riken.jp/en/result)
 * [The Biobank Japan Project](https://biobankjp.org/english/)
 * [PLINK 1.9](https://www.cog-genomics.org/plink2)
 * [ldsc](https://github.com/bulik/ldsc)
 * [LD score](https://data.broadinstitute.org/alkesgroup/LDSCORE/) (Price Lab website)
-  * [Additional LD score for East Asians](http://jenger.riken.jp/en/data)
+  * [Additional LD score for East Asians](http://jenger.riken.jp/en/data) (our Lab website)
+* [Fuji plot](https://github.com/mkanai/fujiplot)
 * [circos](http://circos.ca/)
 * [1000 Genomes Project](http://www.1000genomes.org/)
 
