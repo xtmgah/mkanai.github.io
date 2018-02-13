@@ -395,6 +395,17 @@ title: Software & Data
 
 <img src="/img/Kanai2018_Fig1.svg" alt="Fuji plot" width="100%" style="max-width:768px">
 
+### Genetic correlation network (Figure 3) {% github_link ldsc-network-plot %}
+Genetic correlation network was designed to visualize cross-phenotype relationships (pairwise genetic correlation matrix) across dozens of traits estimated via [bivariate LD score regression](https://www.nature.com/articles/ng.3406).
+
+<img src="/img/Kanai2018_Fig3.svg" alt="Genetic correlation network" width="100%" style="max-width:768px">
+
+### Cell-type specificity network (Figure 6) {% github_link ldsc-network-plot %}
+Cell-type specificity network was designed to summarize cell-type specific enrichments estimated via [stratified LD score regression](https://www.nature.com/articles/ng.3404).
+
+<img src="/img/Kanai2018_Fig6.svg" alt="Genetic correlation network" width="100%" style="max-width:768px">
+
+
 ### Links
 * [JENGER](http://jenger.riken.jp/en/result)
 * [The Biobank Japan Project](https://biobankjp.org/english/)
@@ -403,6 +414,7 @@ title: Software & Data
 * [LD score](https://data.broadinstitute.org/alkesgroup/LDSCORE/) (Price Lab website)
   * [Additional LD score for East Asians](http://jenger.riken.jp/en/data) (our Lab website)
 * [Fuji plot](https://github.com/mkanai/fujiplot)
+* [ldsc-network-plot](https://github.com/mkanai/ldsc-network-plot)
 * [circos](http://circos.ca/)
 * [1000 Genomes Project](http://www.1000genomes.org/)
 
