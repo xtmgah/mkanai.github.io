@@ -450,7 +450,16 @@ devtools::install_github("mkanai/{package_name}")
 ```
 
 --------
+### Grimon
+{% github_link grimon %}
 
+<p><img src="http://mkanai.github.io/img/Grimon_logo.png" width="360px"></p>
+
+Grimon (**Gr**aphical **i**nterface to visualize **m**ulti-**o**mics **n**etworks) visualizes high-dimensional multi-layered data sets in three-dimensional parallel coordinates. It enables users to intuitively and interactively explore their data, helping their understanding of multiple inter-layer connections embedded in high-dimensional complex data.
+
+<p align="center"><img src="http://mkanai.github.io/img/Grimon_demo.png"></p>
+
+--------
 ### deFinetti
 {% github_link deFinetti! %}
 
