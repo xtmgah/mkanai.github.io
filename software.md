@@ -434,6 +434,7 @@ Cell-type specificity network was designed to summarize cell-type specific enric
 
 ## R packages
 
+* {% smooth_scroll [Grimon](grimon) %}
 * {% smooth_scroll [deFinetti](definetti) %}
 * {% smooth_scroll [ccmatch](ccmatch) %}
 * {% smooth_scroll [WRShd](wrshd) %}
@@ -457,7 +458,23 @@ devtools::install_github("mkanai/{package_name}")
 
 Grimon (**Gr**aphical **i**nterface to visualize **m**ulti-**o**mics **n**etworks) visualizes high-dimensional multi-layered data sets in three-dimensional parallel coordinates. It enables users to intuitively and interactively explore their data, helping their understanding of multiple inter-layer connections embedded in high-dimensional complex data.
 
-<p align="center"><img src="http://mkanai.github.io/img/Grimon_demo.png"></p>
+#### Schematic overview
+<p><img src="http://mkanai.github.io/img/Grimon_demo.png" width=768px></p>
+
+
+#### Example 1: Metagenome data {% cite Maeda2016 -f references.bib %}
+<p><img src="http://mkanai.github.io/img/Grimon_example1.png" width=768px></p>
+
+
+#### Example 2: the Geuvadis Project {% cite Lappalainen2013 -f references.bib %}
+<p><img src="http://mkanai.github.io/img/Grimon_example2.png" width=768px></p>
+
+
+**References**
+
+1. {% reference Maeda2016 -f references.bib %}
+2. {% reference Lappalainen2013 -f references.bib %}
+
 
 --------
 ### deFinetti
