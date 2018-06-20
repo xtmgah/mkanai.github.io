@@ -15,7 +15,7 @@ title: Software & Data
 
 ## Kanai, M. *et al.*, *Nat. Genet.* (2018)
 
-{% reference Kanai2018 -f publications.bib %}
+{% reference Kanai2018a -f publications.bib %}
 
 * GWAS summary statistics of 58 quantitative traits are available at [JENGER](http://jenger.riken.jp/en/result) (**J**apanese **EN**cyclopedia of **GE**netic associations by **R**iken).
 * They are also browsable through our [PheWeb](http://jenger.riken.jp/pheweb/) for the BioBank Japan GWAS results.
@@ -451,8 +451,10 @@ devtools::install_github("mkanai/{package_name}")
 ```
 
 --------
-### Grimon
+<h3 id="grimon"> Grimon (Kanai, M. <em>et al.</em>, <em>Bioinformatics</em>, 2018)</h3>
 {% github_link grimon %}
+
+{% reference Kanai2018b -f publications.bib %}
 
 <p><img src="http://mkanai.github.io/img/Grimon_logo.png" width="360px"></p>
 
