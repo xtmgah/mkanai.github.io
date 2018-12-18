@@ -2,7 +2,7 @@
 title: Masahiro Kanai (金井 仁弘)
 description: PhD student in Bioinformatics and Integrative Genomics Program, Harvard Medical School.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mkanai.github.io" # the base hostname & protocol for your site
+url: "https://mkanai.github.io" # the base hostname & protocol for your site
 repository: "https://github.com/mkanai/mkanai.github.io"
 
 author:
