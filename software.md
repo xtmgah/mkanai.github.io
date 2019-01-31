@@ -10,6 +10,7 @@ title: Software & Data
 * {% smooth_scroll [Kanai, M. *et al.*, *Nat. Genet.* (2018)](kanai-m-et-al-nat-genet-2018) %}
 * {% smooth_scroll [Kanai, M. *et al.*, *J. Hum. Genet.* (2016)](kanai-m-et-al-j-hum-genet-2016) %}
 * {% smooth_scroll [R packages](r-packages) %}
+  * {% smooth_scroll [Grimon (Kanai, M. *et al.*, *Bioinformatics*, 2018)](grimon) %}
 
 --------
 
