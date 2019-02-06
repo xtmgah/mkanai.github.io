@@ -14,10 +14,35 @@ module Jekyll
         reference = render_bibliography entry, index
 
         # it must be a dirty hack, though...
+
+        # inline-block and block
+        # reference = reference.gsub(/(.*\.) (.*\.) <i>/){|c| "<span class=\"authors\">#{$1}</span><span class=\"title\">#{$2}</span> <i>"}
+
+        # link title
+        reference = reference.gsub(/(.*\.) (.*\.) <i>(.*)<\/i> (.*\.) (\bdoi:(10[.][0-9]{4,}(?:[.][0-9]+)*\/(?:(?![\"&\'<>])\S)+)\b)/) { |c| "#{$1} <a href=\"http://dx.doi.org/#{$6}\" target=\"_blank\" rel=\"noopener\">#{$2}</a> <i class=\"journal\">#{$3}</i> #{$4} #{$5}"}
+
         # highlight authorship
         reference = reference.gsub(/Kanai, M|金井 仁弘/u){|c| "<strong>#{$&}</strong>"}
-        # link doi
-        reference = reference.gsub(/\bdoi:(10[.][0-9]{4,}(?:[.][0-9]+)*\/(?:(?![\"&\'<>])\S)+)\b/) { |c| "<a href=\"http://dx.doi.org/#{$1}\" target=\"_blank\" rel=\"noopener\">#{$&}</a>" }
+
+        # custom et al
+        def et_al(text)
+          author_list = text.split(".,")
+          return text if author_list.length <= 6
+
+          authors = author_list[0..5].join(".,") + ". <i>et al.</i>"
+          if not authors.include?("<strong>") then
+            idx = author_list.find_index {|c| c.include?("<strong>")}
+            return authors if idx.nil?
+
+            authors = author_list[0..4].join(".,") + "., ..., " + author_list[idx] + ". <i>et al.</i>"
+          end
+          return authors
+        end
+        reference = reference.gsub(/(.*\.) <a/) { |c| "#{et_al($1)} <a"}
+
+        # remove doi if necessary
+        reference = reference.gsub(/(<b>.*\. )(\bdoi:(10[.][0-9]{4,}(?:[.][0-9]+)*\/(?:(?![\"&\'<>])\S)+)\b)/) { |c| "#{$1}"}
+
         # link urls
         reference = reference.gsub(/\[([^\]]*)\]\(((?:(?:https?|ftp):\/)?\/[-_.!~*\'()a-zA-Z0-9;\/?:\@&=+\$,%#]+)\)/) { |c| "<a class=\"btn btn-primary btn-xs fui-link\" href=\"#{$2}\" target=\"_blank\" rel=\"noopener\"><span class=\"icon-text\">#{$1}</span></a>" }
 
