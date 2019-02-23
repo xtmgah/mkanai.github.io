@@ -396,6 +396,11 @@ title: Software & Data
 
 <img src="/img/Kanai2018_Fig1.svg" alt="Fuji plot" width="100%" style="max-width:768px">
 
+### Genetic correlation corrplot (Figure 2) {% github_link ldsc-corrplot-rg %}
+We modified [corrplot](https://github.com/taiyun/corrplot) to visualize pairwise genetic correlations estimated via [bivariate LD score regression](https://www.nature.com/articles/ng.3406).
+
+<img src="/img/Kanai2018_Fig2.svg" alt="Genetic correlation corrplot" width="100%" style="max-width:768px">
+
 ### Genetic correlation network (Figure 3) {% github_link ldsc-network-plot %}
 Genetic correlation network was designed to visualize cross-phenotype relationships (pairwise genetic correlation matrix) across dozens of traits estimated via [bivariate LD score regression](https://www.nature.com/articles/ng.3406).
 
@@ -415,8 +420,10 @@ Cell-type specificity network was designed to summarize cell-type specific enric
 * [LD score](https://data.broadinstitute.org/alkesgroup/LDSCORE/) (Price Lab website)
   * [Additional LD score for East Asians](http://jenger.riken.jp/en/data) (our Lab website)
 * [Fuji plot](https://github.com/mkanai/fujiplot)
+* [ldsc-corrplot-rg](https://github.com/mkanai/ldsc-corrplot-rg)
 * [ldsc-network-plot](https://github.com/mkanai/ldsc-network-plot)
 * [circos](http://circos.ca/)
+* [corrplot](https://github.com/taiyun/corrplot)
 * [1000 Genomes Project](http://www.1000genomes.org/)
 
 --------
