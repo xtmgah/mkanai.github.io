@@ -22,7 +22,7 @@ module Jekyll
         reference = reference.gsub(/(.*\.) (.*\.) <i>(.*)<\/i> (.*\.) (\bdoi:(10[.][0-9]{4,}(?:[.][0-9]+)*\/(?:(?![\"&\'<>])\S)+)\b)/) { |c| "#{$1} <a href=\"http://dx.doi.org/#{$6}\" target=\"_blank\" rel=\"noopener\">#{$2}</a> <i class=\"journal\">#{$3}</i> #{$4} #{$5}"}
 
         # highlight authorship
-        reference = reference.gsub(/Kanai, M|金井 仁弘/u){|c| "<strong>#{$&}</strong>"}
+        reference = reference.gsub(/\**Kanai, M|金井 仁弘/u){|c| "<strong>#{$&}</strong>"}
 
         # custom et al
         def et_al(text)

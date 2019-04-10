@@ -151,7 +151,7 @@
 
 
 \forcsvlist{\listadd\boldnames}
-  {{Kanai, Masahiro.}, {Kanai, M.}, {Kanai, M\bibinitperiod}}
+  {{Kanai, Masahiro.}, {Kanai, M.}, {Kanai, M\bibinitperiod}, {*Kanai, M.}, {*Kanai, M\bibinitperiod}}
 
 % highlight journal title
 \xpretobibmacro{journal}{\begingroup\color{color1}\bfseries}{}{}
@@ -217,7 +217,8 @@
 \addbibresource{international.bib}
 \addbibresource{domestic.en.bib}
 
-
+% co-first
+\defbibnote{cofirst}{(* = co-first)}
 
 
 %----------------------------------------------------------------------------------
@@ -337,7 +338,7 @@
 % Publications
 %----------------------------------------------------------------------------------
 \nocite{*}
-\printbibliography[title=Publications, type=article, notkeyword={review}]
+\printbibliography[title=Publications, type=article, notkeyword={review}, prenote=cofirst]
 \printbibliography[title={Reviews (in Japanese)}, heading=subbibliography, type=article, keyword={review}, resetnumbers=true]
 
 %----------------------------------------------------------------------------------
