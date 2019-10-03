@@ -24,8 +24,8 @@ author:
 # gems: ['jekyll/assets']
 
 # Build settings
-markdown: redcarpet
-highliter: rouge
+# markdown: redcarpet
+# highliter: rouge
 exclude: ["Gemfile", "Gemfile.lock", "Rakefile", "README.md", "scripts"]
 sass:
     sass_dir: ./css
