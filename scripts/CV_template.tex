@@ -1,4 +1,4 @@
-\documentclass[11pt, a4paper, sans]{moderncv}
+\documentclass[11pt, a4paper]{moderncv}
 
 % modern themes
 \definecolor{color1}{RGB}{52,73,94}
@@ -8,8 +8,8 @@
 
 % character encoding
 \usepackage[utf8]{inputenc}
-\usepackage[default]{lato}
 \usepackage[T1]{fontenc}
+\usepackage[default]{lato}
 
 % adjust the page margins
 \usepackage[margin=0.8in]{geometry}
@@ -26,7 +26,7 @@
   \if@norules%
     \Large\bfseries\scshape%
   \else%
-    \Large\fontseries{eb}\selectfont\upshape\fi}
+    \Large\fontseries{ub}\selectfont\upshape\fi}
 \renewcommand*{\subsectionfont}{%
   \if@norules%
     \large\mdseries\itshape%
@@ -134,8 +134,9 @@
 % internal macros were renamed from biblatex 3.3
 % http://tex.stackexchange.com/questions/315787/sorting-authorname-and-highlight-it-in-bold
 \usepackage{xpatch}% or use http://tex.stackexchange.com/a/40705
+\usepackage{xstring}
 \newbibmacro*{name:bold}[2]{%
-  \def\do##1{\IfStrEq{#1, #2}{##1}{\fontseries{eb}\selectfont\listbreak}{}}% not sure why ifstrequal does not work.
+  \def\do##1{\IfStrEq{#1, #2}{##1}{\fontseries{ub}\selectfont\listbreak}{}}% not sure why ifstrequal does not work.
   \dolistloop{\boldnames}}
 \newcommand*{\boldnames}{}
 
@@ -154,7 +155,7 @@
   {{Kanai, Masahiro.}, {Kanai, M.}, {Kanai, M\bibinitperiod}, {*Kanai, M.}, {*Kanai, M\bibinitperiod}}
 
 % highlight journal title
-\xpretobibmacro{journal}{\begingroup\color{color1}\bfseries}{}{}
+\xpretobibmacro{journal}{\begingroup\color{color1}\fontseries{eb}}{}{}
 \xapptobibmacro{journal}{\endgroup}{}{}
 
 % url/doi in sf format

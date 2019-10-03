@@ -33,7 +33,7 @@ def load_yaml(file, basedir=None):
     if basedir is not None:
         file = os.path.join(basedir, file)
     with io.open(file, 'r', encoding='utf-8') as f:
-        yml = yaml.load(f)
+        yml = yaml.load(f, Loader=yaml.FullLoader)
     return yml
 
 
@@ -65,7 +65,7 @@ def main(args):
     stdout, stderr = p.communicate()
     print(stdout)
     print(stderr)
-    
+
     # cleanup
     cmd = ['latexmk', '-c', out_fname]
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
