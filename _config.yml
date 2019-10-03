@@ -26,7 +26,7 @@ author:
 # Build settings
 # markdown: redcarpet
 # highliter: rouge
-exclude: ["Gemfile", "Gemfile.lock", "Rakefile", "README.md", "scripts"]
+exclude: ["Gemfile", "Gemfile.lock", "Rakefile", "README.md", "scripts", ".DS_Store", ".jekyll-cache"]
 sass:
     sass_dir: ./css
 
