@@ -48,8 +48,8 @@ scholar:
   source: ./_bibliography
   bibliography: publications.bib
   bibliography_template: "{{reference}}"
-  bibliography_list_attributes:
-    reversed:
+#   bibliography_list_attributes:
+#     reversed:
 
   replace_strings: true
   join_strings:    true
